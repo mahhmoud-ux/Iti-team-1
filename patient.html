@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="/w3css.css" rel="stylesheet" type="text/css">
+    <link href="/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Patient</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light bg-dark  bg-light fcolor">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class=" navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+            data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link " href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <ul><i class="fa fa-arrows-alt" aria-hidden="true"></i>
+            <img src="./resource/istockphoto-1214428300-612x612.jpg">
+             <i class="fa fa-bell-o" aria-hidden="true"></i>
+            <i class="fa fa-cog fa-spin fa-1x fa-fw"></i></i></ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 bor sidenavbar text-center ">
+                <div class="container-fluid text-center ">
+
+                    <div class="card imgbox">
+                        <img class="patient_img"
+                            src="https://tse3.mm.bing.net/th?id=OIP.ZME5Q5Aq-h2V1YBe_yZWMwHaHa&pid=Api&P=0&w=300&h=300">
+                    </div>
+                    <div>
+                        <ul class="patient-name">patient name<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></ul>
+                    </div>
+                    <!-- sidenave bar items -->
+                    <div>
+                        <div class="sidenaveintem item1 container-fluid">
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link">
+                                                View Profile
+                                            </button>
+                                        </h5>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse " aria-labelledby="headingOne"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <button class="btn btn-link subbtn">
+                                                Edit
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseTwo" aria-expanded="false"
+                                                aria-controls="collapseTwo">
+                                                Settings
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <button class="subbtn"> Edit Profile </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h5 class="mb-0">
+                                            <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                data-target="#collapseThree" aria-expanded="false"
+                                                aria-controls="collapseThree">
+                                                contacts
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <button class="subbtn"> My Doctors</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <br>
+                        <hr>
+                        <div class="sidenaveintem item2">
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapsefour" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            stuff
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapsefour" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <button class="subbtn">data</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidenaveintem item3"></div>
+                        <div class="sidenaveintem item4"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-10 bor">
+                <br>
+                <div class="container-fluid viewprofile">
+                    <fieldset class="border p-5">
+                        <legend class="w-auto">
+                            <h4>Patient personal Data</h4>
+                        </legend>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group divitemform">
+                                        <label for="National_Id">National Id</label>
+                                        <input disabled type="text" name="National_Id" id="National_Id" class="form-control"
+                                            placeholder="National_Id" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group divitemform">
+                                        <label for="Name">Name</label>
+                                        <input disabled type="text" name="Name" id="Name" class="form-control" placeholder="Name"
+                                            aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group divitemform">
+                                        <label for="Birth_Date">Birth Date</label>
+                                        <input disabled type="text" name="Birth_Date" id="Birth_Date" class="form-control"
+                                            placeholder="mm/dd/yyyy" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group divitemform">
+                                        <label for="Address">Address</label>
+                                        <input disabled type="text" name="Address" id="Address" class="form-control"
+                                            placeholder="st..." aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                    <div class="form-group divitemform">
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input disabled type="radio"  class="form-check-input" name="optradio">Male
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input disabled type="radio" class="form-check-input" name="optradio">Female
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group divitemform">
+                                        <label for="Phone">Phone</label>
+                                        <input type="text" name="Phone" id="Phone" class="form-control"
+                                            placeholder="Phone" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group divitemform">
+                                        <label for="Blood_Type">Blood Type</label>
+                                        <input type="text" name="Blood_Type" id="Blood_Type" class="form-control"
+                                            placeholder="mm/dd/yyyy" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="border p-5">
+                        <legend class="w-auto">
+                            <h4>Patient Diagnoses</h4>
+                        </legend>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="container-fluid search_bar">
+                                    <br>
+                                    <label>Diagnostic History &nbsp;&nbsp;&nbsp;&nbsp; </label>
+                                    <input type="text" class="form-control divitemform" name="" id=""
+                                        aria-describedby="helpId" placeholder="Search For Department">
+                                    <br>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Id</th>
+                                            <th> Department</th>
+                                            <th>Date</th>
+                                            <th> Disease</th>
+                                            <th> Doctor Name </th>
+                                            <th> Doctor Mobile </th>
+                                            <th> Details </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td scope="row"></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="container-fluid editprofile">
+                    <fieldset class="border p-5">
+                        <legend class="w-auto">
+                            <h4>Edit Patient</h4>
+                        </legend>
+                        <div class="container-fluid">
+                            <div class="row">
+
+                                <div class="col-md-6">
+                                    <div class="form-group divitemform">
+                                        <label for="National_IDedite">National_ID</label>
+                                        <input type="text" name="National_IDeditee" id="National_IDedite"
+                                            class="form-control" placeholder="National_ID" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                    <div class="form-group divitemform">
+                                        <label for="Birth">Birth</label>
+                                        <input type="text" name="Birthe" id="Birthe" class="form-control"
+                                            placeholder="mm/dd/yyyy" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                    <div class="form-group divitemform">
+                                        <label for="Blood_Typee">Blood Type</label>
+                                        <input type="text" name="Blood" id="Bloode" class="form-control"
+                                            placeholder=" blood type " aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                    <div class="form-group divitemform">
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="radio" value="lll" class="form-check-input" name="optradio">Male
+                                            </label>
+                                        </div>
+                                        <div class="form-check-inline">
+                                            <label class="form-check-label">
+                                                <input type="radio" class="form-check-input" name="optradio">Female
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group divitemform">
+                                        <label for="Nameedite">Name</label>
+                                        <input type="text" name="Name" id="Namee" class="form-control"
+                                            placeholder="Name" aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                    <div class="form-group divitemform">
+                                        <label for="phonee">Phone</label>
+                                        <input type="text" name="Phone" id="Phoneee" class="form-control" placeholder=""
+                                            aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                    <div class="form-group divitemform">
+                                        <label for="Address">Addressed</label>
+                                        <input type="text" name="Addressede" id="Addressede" class="form-control"
+                                            placeholder="st..." aria-describedby="helpId">
+                                        <small id="helpId" class="text-muted">Help text</small>
+                                    </div>
+                                </div>
+                                
+                                <span class="conty"><h4 class="donere" >Update</h4></span>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <br>
+
+                </div>
+                <div class="container-fluid Mydoctors  bg-light ">
+                    <div class="card doc" style="width: 18rem;">
+                        <img class="card-img-top"
+                            src="https://theshifaclinic.com/wp-content/uploads/2016/10/DR-avatar.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4>DR,........</h4>
+                            <h4>Address,........</h4>
+                            <h4>Phone,........</h4>
+                            <div class="text-center">
+                                <button class="btn ReadMore">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card doc" style="width: 18rem;">
+                        <img class="card-img-top"
+                            src="https://theshifaclinic.com/wp-content/uploads/2016/10/DR-avatar.png"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4>DR,........</h4>
+                            <h4>Address,........</h4>
+                            <h4>Phone,........</h4>
+                            <div class="text-center">
+                                <button class="btn ReadMore">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+             
+                </div>
+                <div class="container">
+<!-- Button to Open the Modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    Open modal
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+      <fieldset class= "border p-5">
+          <legend class="w-auto"> View Diagnose</legend>
+          <div class="container">
+            <div class="row">
+          
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Doctor_Name">Doctor Name</label>
+                        <input disabled type="text" name="Doctor_Name" id="Doctor_Name" class="form-control" placeholder="" aria-describedby="helpId">
+                        <small id="helpId" class="text-muted">Help text</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="Date">Date</label>
+                        <input disabled type="datetime " name ="Date" id="Date" class="form-control" placeholder="mm/dd/yyyy" aria-describedby="helpId">
+                        <small id="helpId" class="text-muted">Help text</small>
+                      </div>
+        
+                    </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Department">Department</label>
+                        <input disabled type="text" name="Department" id="Department" class="form-control" placeholder="" aria-describedby="helpId">
+                        <small id="helpId" class="text-muted">Help text</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="Disease">Disease</label>
+                        <input disabled type="text " name ="Disease" id="Disease" class="form-control" placeholder="Disease" aria-describedby="helpId">
+                        <small id="helpId" class="text-muted">Help text</small>
+                      </div>
+                  </div>
+                  
+            </div> 
+          <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <label for="Medicines_List">Medicines_List</label>
+                  <div disabled id="Medicines_List" class="Medicines_List contaier-fluid"> <br>
+               
+            </div>
+                  <small id="helpId" class="text-muted">Help text</small>
+                </div>  
+              </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="Diagnose">Diagnose</label>
+                <div disabled id="Diagnose" class="Medicines_List contaier-fluid">1 <br>
+          </div>
+                <small id="helpId" class="text-muted">Help text</small>
+              </div>  
+            </div>
+             <div class="col-md-12 text-center">
+           
+                <button class=" btn btn btn-light" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+            </div>
+      </fieldset>
+  
+      </div>
+    </div>
+  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="typescript.js"></script>
+  
+</body>
+
+</html>

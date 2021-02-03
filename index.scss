@@ -1,0 +1,179 @@
+$shadow:5px 10px 10px grey;
+$fontcolornavbar:whitesmoke !important;
+$fontdashbored:20pt;
+body{
+    background: #ccc;
+}
+.bor{
+box-shadow: $shadow;
+}
+/*  start navbar*/
+.fcolor * {
+    color: $fontcolornavbar;
+}
+.sidenavbar{
+    filter: brightness(80%); 
+
+    box-sizing: border-box;
+    background-color: rgb(29, 29, 112);
+    color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    font-size: $fontdashbored;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.sidenavbar *{ 
+    margin: 0px;
+    padding:0px;
+    padding-top: 1px;
+}
+.imgbox{
+   
+   width: 100%;
+   display:block;
+   background-color: #1d1d70; 
+   border-radius: 30px;
+margin-top: 1em;
+} 
+.patient_img{
+    
+width: 50%;
+height: 150px;
+background-color:aqua;
+color: red;
+border-radius: 30px;
+}
+.sidenaveintem *{
+    background-color: #1d1d70;
+    font-size:25px;
+transition: background-color 1s;
+border: none !important;
+}
+.btn-link:hover  {
+    
+    width: 100%;
+    background-color: black;
+    font-size:25px;
+    color: whitesmoke;
+    border: none !important;
+}
+.subbtn:hover  {
+    border: none !important;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-size:25px;
+    color: rgba(245, 245, 245, 0.651);
+}
+hr{
+border: 0.5px solid black;
+background-color: black;
+border-radius: 30px;
+}
+.viewprofile{
+    box-shadow: $shadow;
+    background-color: rgb(70, 138, 226);
+  //  background-image: url("https://www.sdglobaltech.com/wp-content/uploads/2017/01/The-Must-Have-modules-of-a-Hospital-Management-System-1200x675.jpg");
+    display: none;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  //  filter: brightness(50%); 
+
+}
+.editprofile{
+    box-shadow: $shadow;
+    background-color: rgb(70, 138, 226);
+  //  background-image: url("https://www.sdglobaltech.com/wp-content/uploads/2017/01/The-Must-Have-modules-of-a-Hospital-Management-System-1200x675.jpg");
+   display: none;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+  //  filter: brightness(50%); 
+
+}
+legend{
+    font-size:25px;
+    
+}
+.divitemform{
+    width: 18vw;
+}
+label{
+    font-size: 25px;
+    font-weight: 700;
+}
+.search_bar{
+    background-color: #000000;
+    border-radius: 30px;
+    display: flex;
+    padding: 5px;
+    padding-top: 10px;
+}
+.doc{
+    background-color: rgb(93, 93, 190);
+    box-sizing: border-box;
+
+}
+.ReadMore{
+   font-weight: bold; 
+}
+.ReadMore:hover{
+    color:rgb(255, 255, 255);
+}
+body > div > div > div.col-md-10.bor > div.container-fluid.Mydoctors.bg-light{
+display:flex;
+display: none;
+}
+.doc{
+    margin: 6px;
+    padding: 5px;
+    }
+.Medicines_List{
+    border: 1px solid black ;
+    background-color: gainsboro;
+}
+small{
+    display: none;
+}
+#myModal{
+       filter: brightness(90%); 
+    width: 100%;
+    box-shadow: 5px 10px 15px grey;
+}
+fieldset{
+  width: 100%;
+  background-color: steelblue;
+}
+.modal-content{
+background-color: steelblue;
+width: 122%;
+}
+
+
+.donere{
+    color: rgb(47, 0, 255);
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    transition: font-size 3s;
+}
+.donere:hover{
+    font-size:25px;
+
+color: rgb(124, 0, 107);
+}
+#collapsibleNavId > ul:nth-child(2) > img{
+width :15px
+}
+.conty{
+    width: 85%;
+
+    box-sizing: border-box;
+}
+i{
+   // padding-left: 10px !important;
+    margin-left: 10px !important;
+}
+#collapsibleNavId > ul:nth-child(2) > i.fa.fa-arrows-alt{
+    margin-right: 5px !important;
+}
