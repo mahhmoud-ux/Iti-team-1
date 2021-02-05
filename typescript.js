@@ -1,5 +1,5 @@
 var func = [
-    ["0", "prescription1", "Dr.Mohamed,Dr.Mohamed,Dr.Mohamed,Dr.Mohamed,Dr.Mohamed", "4/5/2020", "covid"],
+    ["0", "prescription1", "Dr.Mohamed", "4/5/2020", "covid"],
     ["1", "prescription1", "Dr.Mohamed", "4/5/2020", "covid"],
     ["2", "prescription1", "Dr.Mohamed", "4/5/2020", "covid"],
     ["3", "prescription1", "Dr.Mohamed", "4/5/2020", "covid"],
@@ -45,7 +45,7 @@ function dahsboredbuttons() {
 }
 function appendData() {
     for (var i = 0; i < func.length; i++) {
-        tbody.innerHTML += "\n            <tr>\n            <td scope=\"row\">" + func[i][0] + "</td>\n            <td >" + func[i][1] + "</td>\n            <td>" + func[i][2] + "</td>\n            <td>" + func[i][3] + "</td>\n            <td>" + func[i][4] + "</td>\n            <td>" + func[i][0] + "</td>\n            <td>" + "<button data-toggle=\"modal\" data-target=\"#myModal\" class=\"w3-btn w3-blue-grey idbtn\"  onclick=\"test(event)\" value=" + func[i][0] + ">Details</button></td>\n            </tr>";
+        tbody.innerHTML += "\n            <tr>\n            <th scope=\"row\">" + func[i][0] + "</th>\n            <td >" + func[i][1] + "</td>\n            <td>" + func[i][2] + "</td>\n            <td>" + func[i][3] + "</td>\n            <td>" + func[i][4] + "</td>\n            <td>" + func[i][0] + "</td>\n            <td>" + "<button data-toggle=\"modal\" data-target=\"#myModal\" class=\"w3-btn w3-blue-grey idbtn\"  onclick=\"test(event)\" value=" + func[i][0] + ">Details</button></td>\n            </tr>";
     }
 }
 function test(ee) {

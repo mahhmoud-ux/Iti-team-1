@@ -1,10 +1,15 @@
+* {
+  color: whitesmoke !important;
+}
+
 body {
-  background: #ccc;
+  background: -webkit-gradient(linear, left top, left bottom, from(#448AFF), color-stop(#305fb1), to(#152b52)) !important;
+  background: linear-gradient(#448AFF, #305fb1, #152b52) !important;
 }
 
 .bor {
-  -webkit-box-shadow: 5px 10px 10px grey;
-          box-shadow: 5px 10px 10px grey;
+  -webkit-box-shadow: 5px 10px 10px 5px #152b52;
+          box-shadow: 5px 10px 10px 5px #152b52;
 }
 
 /*  start navbar*/
@@ -15,9 +20,11 @@ body {
 .sidenavbar {
   -webkit-filter: brightness(80%);
           filter: brightness(80%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#448AFF), color-stop(#305fb1), to(#152b52)) !important;
+  background: linear-gradient(#448AFF, #305fb1, #152b52) !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #1d1d70;
+  background-color: linear-gradient(#448AFF, #305fb1, #152b52) !important !important;
   color: whitesmoke;
   height: 100vh;
   width: 100%;
@@ -37,7 +44,8 @@ body {
 .imgbox {
   width: 100%;
   display: block;
-  background-color: #1d1d70;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#448AFF), color-stop(stealblue), to(blue));
+  background-image: linear-gradient(#448AFF, stealblue, blue);
   border-radius: 30px;
   margin-top: 1em;
 }
@@ -51,7 +59,7 @@ body {
 }
 
 .sidenaveintem * {
-  background-color: #1d1d70;
+  background-color: inherit;
   font-size: 25px;
   -webkit-transition: background-color 1s;
   transition: background-color 1s;
@@ -60,7 +68,7 @@ body {
 
 .btn-link:hover {
   width: 100%;
-  background-color: black;
+  background-color: #254683;
   font-size: 25px;
   color: whitesmoke;
   border: none !important;
@@ -69,30 +77,29 @@ body {
 .subbtn:hover {
   border: none !important;
   width: 100%;
-  background-color: black;
+  background-color: #c80d0d;
   font-size: 25px;
   color: rgba(245, 245, 245, 0.651);
 }
 
 hr {
-  border: 0.5px solid black;
-  background-color: black;
+  border: 0.5px solid whitesmoke;
+  background-color: whitesmoke;
   border-radius: 30px;
 }
 
 .viewprofile {
-  -webkit-box-shadow: 5px 10px 10px grey;
-          box-shadow: 5px 10px 10px grey;
-  background-color: #468ae2;
-  display: none;
+  -webkit-box-shadow: 5px 10px 10px 5px #152b52;
+          box-shadow: 5px 10px 10px 5px #152b52;
+  background-color: linear-gradient(#448AFF, #305fb1, #152b52) !important;
   background-repeat: no-repeat;
   opacity: 0.8;
 }
 
 .editprofile {
-  -webkit-box-shadow: 5px 10px 10px grey;
-          box-shadow: 5px 10px 10px grey;
-  background-color: #468ae2;
+  -webkit-box-shadow: 5px 10px 10px 5px #152b52;
+          box-shadow: 5px 10px 10px 5px #152b52;
+  background-color: linear-gradient(#448AFF, #305fb1, #152b52) !important;
   display: none;
   background-repeat: no-repeat;
   opacity: 0.8;
@@ -122,7 +129,7 @@ label {
 }
 
 .doc {
-  background-color: #5d5dbe;
+  background-color: linear-gradient(#448AFF, #305fb1, #152b52) !important;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -166,11 +173,11 @@ small {
 
 fieldset {
   width: 100%;
-  background-color: steelblue;
+  background-color: linear-gradient(#448AFF, #305fb1, #152b52) !important;
 }
 
 .modal-content {
-  background-color: steelblue;
+  background-color: linear-gradient(#448AFF, #305fb1, #152b52) !important;
   width: 122%;
 }
 
@@ -204,5 +211,18 @@ i {
 
 #collapsibleNavId > ul:nth-child(2) > i.fa.fa-arrows-alt {
   margin-right: 5px !important;
+}
+
+input, label, legend {
+  color: black !important;
+  font-weight: 900 !important;
+}
+
+.bg-dark {
+  background-color: #2263d4 !important;
+}
+
+body > nav > button {
+  border: none !important;
 }
 /*# sourceMappingURL=index.css.map */

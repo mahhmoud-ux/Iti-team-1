@@ -1,5 +1,5 @@
 var func=[
-    ["0","prescription1","Dr.Mohamed,Dr.Mohamed,Dr.Mohamed,Dr.Mohamed,Dr.Mohamed","4/5/2020","covid"],
+    ["0","prescription1","Dr.Mohamed","4/5/2020","covid"],
     ["1","prescription1","Dr.Mohamed","4/5/2020","covid"],
     ["2","prescription1","Dr.Mohamed","4/5/2020","covid"],
     ["3","prescription1","Dr.Mohamed","4/5/2020","covid"],
@@ -62,7 +62,7 @@ function appendData()
         {
             tbody.innerHTML +=`
             <tr>
-            <td scope="row">`+ func[i][0]+`</td>
+            <th scope="row">`+ func[i][0]+`</th>
             <td >`+ func[i][1]+`</td>
             <td>`+ func[i][2]+`</td>
             <td>`+ func[i][3]+`</td>
